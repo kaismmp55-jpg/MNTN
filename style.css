@@ -1,0 +1,49 @@
+/*reset*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* alignement horizontale */
+.space-between {
+    justify-content: space-between
+}
+
+.space-around {
+    justify-content: space-around
+}
+
+.space-evenly {
+    justify-content: space-evenly
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+/* aligment verticale */
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.gap-12 {
+    gap: 12px;
+}
