@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 /*reset*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Josefin Sans", sans-serif;
 }
 
+
+/* FLEX BOX */
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
 
+        
 /* alignement horizontale */
 .space-between {
     justify-content: space-between
@@ -47,3 +53,59 @@
 .gap-12 {
     gap: 12px;
 }
+
+/* LARGEUR */
+
+.w100{
+    width: 100%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+
+/* LES TEXTES */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h3 {
+    font-family: "Andada Pro", serif;
+}
+
+
+/* HEADER */
+
+header {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+/* SECTION 1 SECTION HERO */
+.hero {
+    background-image: url(ASSET/banniere.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.div-hero {
+    
+}
+
+/* SECTION 2 */
+
